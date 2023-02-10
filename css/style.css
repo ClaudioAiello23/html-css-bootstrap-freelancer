@@ -18,13 +18,13 @@ HEADER
 ****************************************
 */
 
-header{
+header .row{
     height: 100px;
     background-color: var(--first-color);
 }
 
-.welcome, .menu_nav{
-    background-color: pink;
+nav > div{
+    color: white;
 }
 
 
