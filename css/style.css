@@ -36,9 +36,39 @@ MAIN
 ****************************************
 */
 
+
 main{
-    height: 1000px;
+    height: 4000px;
 }
+
+.start_bootstrap .row{
+    background-color: var(--second-color);
+}
+
+main .start_bootstrap{
+    height: 500px;
+}
+
+.start_bootstrap .b_avatar{
+    height: 250px;
+    width: 250px;
+    background-color: yellow;
+}
+
+main .portfolio{
+    height: 2500px;
+}
+
+.portfolio_img{
+    height: 360px;
+    width: 520px;
+    background-color: yellow;
+    border: 1px dashed black;
+}
+
+
+
+
 
 
 
