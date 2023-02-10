@@ -11,6 +11,38 @@ COMMON
     --second-color: #1abc9c;
 }
 
+/*
+****************************************
+SETUP - ALTEZZE
+****************************************
+*/
+
+header .row{
+    height: 100px;
+}
+
+main{
+    height: 5000px;
+}
+
+main .start_bootstrap{
+    height: 500px;
+}
+
+main .portfolio{
+    height: 2500px;
+}
+
+main .about{
+    height: 720px;
+}
+
+footer{
+    height: 200px;
+}
+
+
+
 
 /*
 ****************************************
@@ -19,7 +51,6 @@ HEADER
 */
 
 header .row{
-    height: 100px;
     background-color: var(--first-color);
 }
 
@@ -37,17 +68,11 @@ MAIN
 */
 
 
-main{
-    height: 4000px;
-}
 
 .start_bootstrap .row{
     background-color: var(--second-color);
 }
 
-main .start_bootstrap{
-    height: 500px;
-}
 
 .start_bootstrap .b_avatar{
     height: 250px;
@@ -55,9 +80,6 @@ main .start_bootstrap{
     background-color: yellow;
 }
 
-main .portfolio{
-    height: 2500px;
-}
 
 .portfolio_img{
     height: 360px;
@@ -66,10 +88,9 @@ main .portfolio{
     border: 1px dashed black;
 }
 
-
-
-
-
+.about{
+    background-color: var(--second-color);
+}
 
 
 /*
@@ -79,7 +100,6 @@ FOOTER
 */
 
 footer{
-    height: 200px;
     background-color: var(--first-color);
 }
 
