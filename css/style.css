@@ -9,6 +9,7 @@ COMMON
 :root{
     --first-color: #2c3e50;
     --second-color: #1abc9c;
+    --third-color: #3a546d;
 }
 
 /*
@@ -21,8 +22,8 @@ header .row{
     height: 100px;
 }
 
-main{
-    height: 5000px;
+/* main{
+    height: 4500px;
 }
 
 main #start_bootstrap{
@@ -37,7 +38,15 @@ main #about{
     height: 720px;
 }
 
-footer{
+main #contact_me{
+    height: 600px;
+}
+
+main #info{
+    height: 450px;
+} */
+
+footer .row{
     height: 200px;
 }
 
@@ -87,8 +96,12 @@ che dovrebbe applicare la max-width:100% e l'altezza "auto" all'img. */
     border: 1px dashed black;
 }
 
-#about{
+main #about .row{
     background-color: var(--second-color);
+}
+
+main #info .row{
+    background-color: var(--third-color);
 }
 
 
