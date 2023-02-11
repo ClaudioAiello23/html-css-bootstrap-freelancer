@@ -25,15 +25,15 @@ main{
     height: 5000px;
 }
 
-main .start_bootstrap{
+main #start_bootstrap{
     height: 500px;
 }
 
-main .portfolio{
+main #portfolio{
     height: 2500px;
 }
 
-main .about{
+main #about{
     height: 720px;
 }
 
@@ -59,8 +59,6 @@ nav > div{
 }
 
 
-
-
 /*
 ****************************************
 MAIN
@@ -69,26 +67,27 @@ MAIN
 
 
 
-.start_bootstrap .row{
+#start_bootstrap .row{
     background-color: var(--second-color);
 }
 
 
-.start_bootstrap .b_avatar{
+#start_bootstrap .b_avatar{
     height: 250px;
     width: 250px;
     background-color: yellow;
 }
 
-
+/*  NOTA su .portfolio_img: */
+/* - non metto la dimensione width/height al contenitore delll'immagine
+perchè sto sfruttando dall'html dell'immagine la classe img-fluid
+che dovrebbe applicare la max-width:100% e l'altezza "auto" all'img. */
 .portfolio_img{
-    height: 360px;
-    width: 520px;
     background-color: yellow;
     border: 1px dashed black;
 }
 
-.about{
+#about{
     background-color: var(--second-color);
 }
 
