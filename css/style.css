@@ -18,11 +18,11 @@ SETUP - ALTEZZE
 ****************************************
 */
 
-header .row{
+/* header{
     height: 100px;
-}
+}  */
 
-/* main{
+ /* main{
     height: 4500px;
 }
 
@@ -44,12 +44,11 @@ main #contact_me{
 
 main #info{
     height: 450px;
-} */
+} 
 
 footer .row{
     height: 200px;
-}
-
+} */
 
 
 
@@ -59,12 +58,14 @@ HEADER
 ****************************************
 */
 
-header .row{
+header{
     background-color: var(--first-color);
 }
 
-nav > div{
-    color: white;
+
+header .row .col{
+    background-color: yellow;
+    border: 1px dashed black;
 }
 
 
@@ -76,7 +77,7 @@ MAIN
 
 
 
-#start_bootstrap .row{
+#start_bootstrap{
     background-color: var(--second-color);
 }
 
@@ -91,16 +92,16 @@ MAIN
 /* - non metto la dimensione width/height al contenitore delll'immagine
 perchè sto sfruttando dall'html dell'immagine la classe img-fluid
 che dovrebbe applicare la max-width:100% e l'altezza "auto" all'img. */
-.portfolio_img{
+.nb_portfolio_img{
     background-color: yellow;
     border: 1px dashed black;
 }
 
-main #about .row{
+main #about{
     background-color: var(--second-color);
 }
 
-main #info .row{
+main #info{
     background-color: var(--third-color);
 }
 
@@ -115,6 +116,6 @@ footer{
     background-color: var(--first-color);
 }
 
-.copyright{
+.nb_copyright{
     background-color: pink;
 }
