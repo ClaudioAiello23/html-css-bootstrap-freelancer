@@ -88,6 +88,19 @@ main #nb_about{
 }
 
 
+/*
+-----------------------------
+Main Sezione Contact Me
+-----------------------------
+*/
+
+#nb_contact_me .nb_send_data{
+    background-color: var(--nb-second-color);
+    color: white;
+}
+
+
+
 
 /*
 -----------------------------
