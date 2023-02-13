@@ -11,6 +11,10 @@ body, body a{
     color: white;
 }
 
+#nb_portfolio, #nb_contact_me{
+    color: black;
+}
+
 
 /*
 ****************************************
@@ -65,11 +69,6 @@ perchè sto sfruttando dall'html dell'immagine la classe img-fluid
 che dovrebbe applicare la max-width:100% e l'altezza "auto" all'img. */
 
 
-#nb_portfolio{
-    color: black;
-}
-
-
 
 /*
 -----------------------------
@@ -79,6 +78,13 @@ Main Sezione About
 
 main #nb_about{
     background-color: var(--nb-second-color);
+}
+
+#nb_about button{
+    background-color: var(--nb-second-color);
+    color: white;
+    border: 1px solid black;
+    border-color: white;
 }
 
 
