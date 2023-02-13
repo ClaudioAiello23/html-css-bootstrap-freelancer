@@ -7,13 +7,10 @@
 COMMON
 ****************************************
 */
-body{
+body, body a{
     color: white;
 }
 
-body a{
-    color: white;
-}
 
 /*
 ****************************************
@@ -36,31 +33,49 @@ MAIN
 ****************************************
 */
 
-/* Main Sezione Start Bootstrap */
+/*
+-----------------------------
+Main Sezione Start Bootstrap
+-----------------------------
+*/
 
 #nb_start_bootstrap{
     background-color: var(--nb-second-color);
 }
 
 
+/* Nota: ho dovuto mettere le dimensioni al div contenente
+l'immagine per poterla caricare (anche avendo settato
+img-flud su html) */
 #nb_start_bootstrap .b_avatar{
     height: 250px;
     width: 250px;
 }
 
-/* Main Sezione Portfolio */
+
+/*
+-----------------------------
+Main Sezione Portfolio
+-----------------------------
+*/
 
 /*  NOTA su .portfolio_img: */
 /* - non metto la dimensione width/height al contenitore dell'immagine
 perchè sto sfruttando dall'html dell'immagine la classe img-fluid
 che dovrebbe applicare la max-width:100% e l'altezza "auto" all'img. */
-.nb_portfolio_img{
-    background-color: yellow;
-    border: 1px dashed black;
+
+
+#nb_portfolio{
+    color: black;
 }
 
 
-/* Main Sezione About */
+
+/*
+-----------------------------
+Main Sezione About
+-----------------------------
+*/
 
 main #nb_about{
     background-color: var(--nb-second-color);
@@ -68,7 +83,11 @@ main #nb_about{
 
 
 
-/* Main Sezione Info */
+/*
+-----------------------------
+Main Sezione Info
+-----------------------------
+*/
 
 main #nb_info{
     background-color: var(--nb-third-color);
