@@ -99,6 +99,15 @@ main #nb_info{
     background-color: var(--nb-third-color);
 }
 
+#nb_info .nb_bootstrap_link a{
+    color: #1cb99a;
+}
+
+#nb_info .nb_social{
+    width: 60px;
+    height: 60px;
+}
+
 
 /*
 ****************************************
