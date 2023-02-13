@@ -1,0 +1,24 @@
+/* 
+CSS-COMPONENTS:
+UTILIZZARE LA SOTTOCARTELLA "COMPONENTS" PER INSERIRE
+FILE CSS SINGOLI CONTENENTI REGOLE PERSONALIZZATE CSS
+CHE POSSO UTILIZZARE COPIANDOLE SU ALTRI PROGETTI, 
+ASSOCIANDO AD ESSI IL NOME DELLA CLASSE.
+
+
+
+/* Regola Css da applicare a un Div che contiene
+un'immagine con width: 100%, overflow:hidden (per nascondere
+eventuali eccedenze esterne all'immagine), e border
+radius (per i margini arrotondati) */
+
+/* REGOLA DA APPLICARE SUL DIV CONTENENTE L'IMMAGINE (CARD) */
+.nb_card_box{
+    overflow: hidden; 
+    border-radius: 1.25rem;
+}
+
+/* REGOLA DA APPLICARE SULL'IMMAGINE (CARD) */
+.nb_card_box img{
+    max-width: 100%;
+}
