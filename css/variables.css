@@ -1,0 +1,6 @@
+/* Impostazione variabile background colori principali Header/Main/Footer */
+:root{
+    --nb-first-color: #2c3e50;
+    --nb-second-color: #1abc9c;
+    --nb-third-color: #3a546d;
+}

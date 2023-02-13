@@ -1,17 +1,19 @@
 
+@import 'variables.css';
+
+
 /*
 ****************************************
 COMMON
 ****************************************
 */
-
-/* Impostazione variabile background colori principali Header/Main/Footer */
-:root{
-    --nb-first-color: #2c3e50;
-    --nb-second-color: #1abc9c;
-    --nb-third-color: #3a546d;
+body{
+    color: white;
 }
 
+body a{
+    color: white;
+}
 
 /*
 ****************************************
@@ -23,10 +25,8 @@ header{
     background-color: var(--nb-first-color);
 }
 
-
-header .row .col{
-    background-color: yellow;
-    border: 1px dashed black;
+header .navbar-toggler-icon{
+    border-color: white;
 }
 
 
