@@ -36,7 +36,7 @@ MAIN
 ****************************************
 */
 
-
+/* Main Sezione Start Bootstrap */
 
 #nb_start_bootstrap{
     background-color: var(--nb-second-color);
@@ -46,8 +46,9 @@ MAIN
 #nb_start_bootstrap .b_avatar{
     height: 250px;
     width: 250px;
-    background-color: yellow;
 }
+
+/* Main Sezione Portfolio */
 
 /*  NOTA su .portfolio_img: */
 /* - non metto la dimensione width/height al contenitore dell'immagine
@@ -58,9 +59,16 @@ che dovrebbe applicare la max-width:100% e l'altezza "auto" all'img. */
     border: 1px dashed black;
 }
 
+
+/* Main Sezione About */
+
 main #nb_about{
     background-color: var(--nb-second-color);
 }
+
+
+
+/* Main Sezione Info */
 
 main #nb_info{
     background-color: var(--nb-third-color);
