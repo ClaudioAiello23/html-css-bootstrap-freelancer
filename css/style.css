@@ -7,49 +7,10 @@ COMMON
 
 /* Impostazione variabile background colori principali Header/Main/Footer */
 :root{
-    --first-color: #2c3e50;
-    --second-color: #1abc9c;
-    --third-color: #3a546d;
+    --nb-first-color: #2c3e50;
+    --nb-second-color: #1abc9c;
+    --nb-third-color: #3a546d;
 }
-
-/*
-****************************************
-SETUP - ALTEZZE
-****************************************
-*/
-
-/* header{
-    height: 100px;
-}  */
-
- /* main{
-    height: 4500px;
-}
-
-main #nb_start_bootstrap{
-    height: 500px;
-}
-
-main #nb_portfolio{
-    height: 2500px;
-}
-
-main #nb_about{
-    height: 720px;
-}
-
-main #nb_contact_me{
-    height: 600px;
-}
-
-main #nb_info{
-    height: 450px;
-} 
-
-footer{
-    height: 200px;
-} */
-
 
 
 /*
@@ -59,7 +20,7 @@ HEADER
 */
 
 header{
-    background-color: var(--first-color);
+    background-color: var(--nb-first-color);
 }
 
 
@@ -78,7 +39,7 @@ MAIN
 
 
 #nb_start_bootstrap{
-    background-color: var(--second-color);
+    background-color: var(--nb-second-color);
 }
 
 
@@ -89,7 +50,7 @@ MAIN
 }
 
 /*  NOTA su .portfolio_img: */
-/* - non metto la dimensione width/height al contenitore delll'immagine
+/* - non metto la dimensione width/height al contenitore dell'immagine
 perchè sto sfruttando dall'html dell'immagine la classe img-fluid
 che dovrebbe applicare la max-width:100% e l'altezza "auto" all'img. */
 .nb_portfolio_img{
@@ -98,11 +59,11 @@ che dovrebbe applicare la max-width:100% e l'altezza "auto" all'img. */
 }
 
 main #nb_about{
-    background-color: var(--second-color);
+    background-color: var(--nb-second-color);
 }
 
 main #nb_info{
-    background-color: var(--third-color);
+    background-color: var(--nb-third-color);
 }
 
 
@@ -113,7 +74,7 @@ FOOTER
 */
 
 footer{
-    background-color: var(--first-color);
+    background-color: var(--nb-first-color);
 }
 
 .nb_copyright{
