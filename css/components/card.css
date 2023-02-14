@@ -8,17 +8,18 @@ ASSOCIANDO AD ESSI IL NOME DELLA CLASSE.
 
 
 /* Regola Css da applicare a un Div che contiene
-un'immagine con width: 100%, overflow:hidden (per nascondere
-eventuali eccedenze esterne all'immagine), e border
-radius (per i margini arrotondati) */
+un'immagine con width: 100%, e overflow:hidden (per nascondere
+eventuali eccedenze esterne all'immagine) */
 
 /* REGOLA DA APPLICARE SUL DIV CONTENENTE L'IMMAGINE (CARD) */
 .nb_card_box{
     overflow: hidden; 
-    border-radius: 1.25rem;
+    width: 490px;
+    height: 350px;
 }
 
 /* REGOLA DA APPLICARE SULL'IMMAGINE (CARD) */
 .nb_card_box img{
     max-width: 100%;
+    border-radius: 1.25rem;
 }
