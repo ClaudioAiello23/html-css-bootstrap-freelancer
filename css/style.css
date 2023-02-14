@@ -1,6 +1,7 @@
 
 @import 'variables.css';
 @import 'components/card.css';
+@import 'components/social_icons.css';
 
 
 /*
@@ -117,10 +118,10 @@ main #nb_info{
     color: #1cb99a;
 }
 
-#nb_info .nb_social{
+/* #nb_info .nb_social{
     width: 60px;
     height: 60px;
-}
+} */
 
 
 /*
