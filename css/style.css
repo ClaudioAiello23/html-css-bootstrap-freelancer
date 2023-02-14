@@ -28,9 +28,16 @@ header{
     background-color: var(--nb-first-color);
 }
 
-header .navbar-toggler-icon{
+
+header .navbar-toggler{
+    background-color: var(--nb-first-color);
     border-color: white;
 }
+
+header .nav-link{
+    color:white;
+}
+
 
 
 /*
@@ -102,8 +109,6 @@ Main Sezione Contact Me
 }
 
 
-
-
 /*
 -----------------------------
 Main Sezione Info
@@ -117,12 +122,6 @@ main #nb_info{
 #nb_info .nb_bootstrap_link a{
     color: #1cb99a;
 }
-
-/* #nb_info .nb_social{
-    width: 60px;
-    height: 60px;
-} */
-
 
 /*
 ****************************************
